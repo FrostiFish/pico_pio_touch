@@ -1,4 +1,4 @@
-# pio-touch
+# pico_pio_touch
 Example code in pio assembly and C for a capacitive touch method that requires only copper pads. I've attempted to optimize the code to use as few hardware components as possible (just copper pads) and for flexibility. The speed at which the state machines run will need to be tuned to the size of the copper pads and the desired sensitivity. Fine tuning of some of the delays in the pio code may be necessary.
 
 Known issues:
